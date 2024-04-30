@@ -20,7 +20,7 @@
 
 # EYE_AR_THRESH = 0.23 #baseline
 EYE_AR_THRESH = 0.20 #이렇게 해도 잘 안됨... 그래도 이정도 나쁘지 않음
-EYE_AR_CONSEC_FRAMES = 3
+EYE_AR_CONSEC_FRAMES = 1
 
 # eye landmarks
 eye_landmarks = "gaze_tracking/trained_models/shape_predictor_68_face_landmarks.dat"
